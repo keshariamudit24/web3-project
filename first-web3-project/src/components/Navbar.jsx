@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="md:flex-[0.5] flex-initial justify-center items-center">
                 <div className="flex items-center">
                     <img src={logo} alt="logo" className="w-10 cursor-pointer" />
-                    <h5 className="ml-2 justify-center text-white">Krypto</h5>
+                    <h5 className="ml-2 justify-center text-white">Creepto</h5>
                 </div>
             </div>
             <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
@@ -31,7 +31,7 @@ const Navbar = () => {
                     <NavbarItem key={index + item} title={item} />
                 ))}
             <li className="bg-blue-600 m-4 px-4 hover:bg-blue-800 cursor-pointer rounded-full">
-                login
+                Login
             </li>
             </ul>
             <div className="flex relative">
@@ -43,7 +43,7 @@ const Navbar = () => {
                             {toggleMenu && (
                                 <ul
                                     className="z-10 fixed top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
-                                     flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in
+                                     flex flex-col justify-start items-center rounded-md blue-glassmorphism text-white animate-slide-in
                                     "
                                 >
                                     <li className='w-full text-xl my-2'>
