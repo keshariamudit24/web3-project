@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="md:flex-[0.5] flex-initial justify-center items-center">
                 <div className="flex items-center">
                     <img src={logo} alt="logo" className="w-10 cursor-pointer" />
-                    <h5 className="ml-2 justify-center text-white">Creepto</h5>
+                    <h5 className="hidden md:flex ml-2 justify-center text-white">Creepto</h5>
                 </div>
             </div>
             <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
